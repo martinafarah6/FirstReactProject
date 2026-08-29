@@ -30,6 +30,15 @@
     font-weight: normal;
     color: #777;
 }
+.info-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+    border: 4px solid #4A90E2;
+}
 
 .skill-card {
     width: 350px;
