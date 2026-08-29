@@ -1,0 +1,77 @@
+.info-card {
+    width: 350px;
+    padding: 30px;
+    margin: 50px auto;
+
+    background-color: #ffffff;
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+
+    transition: 0.3s;
+}
+
+.info-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.info-card h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #1c4e80;
+}
+
+.info-card .age {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #777;
+}
+
+.skill-card {
+    width: 350px;
+    padding: 30px;
+    margin: 30px auto;
+
+    background-color: #ffffff;
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.skill-card h2 {
+    margin-bottom: 20px;
+    color: #1c4e80;
+    font-size: 26px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skills-list p {
+    margin: 0;
+    padding: 10px 16px;
+
+    background-color: #f9f4e8;
+    color: #1c4e80;
+
+    border-radius: 20px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.skills-list p:hover {
+    transform: translateY(-3px);
+}
